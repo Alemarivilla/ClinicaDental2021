@@ -58,12 +58,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controladores\DoctoresController.cs" />
     <Compile Include="Controladores\LoginController.cs" />
     <Compile Include="Controladores\PacienteController.cs" />
     <Compile Include="Controladores\UsuarioController.cs" />
     <Compile Include="Modelos\DAO\Conexion.cs" />
+    <Compile Include="Modelos\DAO\DoctorDAO.cs" />
     <Compile Include="Modelos\DAO\PacienteDAO.cs" />
     <Compile Include="Modelos\DAO\UsuarioDAO.cs" />
+    <Compile Include="Modelos\Entidades\Doctor.cs" />
     <Compile Include="Modelos\Entidades\Paciente.cs" />
     <Compile Include="Modelos\Entidades\Usuario.cs" />
     <Compile Include="Program.cs" />

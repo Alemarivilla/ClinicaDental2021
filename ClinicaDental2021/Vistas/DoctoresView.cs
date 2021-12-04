@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ClinicaDental2021.Controladores;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,7 @@ namespace ClinicaDental2021.Vistas
         public DoctoresView()
         {
             InitializeComponent();
+            DoctoresController controller = new DoctoresController(this);
         }
     }
 }
