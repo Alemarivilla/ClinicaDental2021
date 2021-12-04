@@ -1,5 +1,4 @@
-﻿using ClinicaDental2021.Controladores;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -11,17 +10,11 @@ using System.Windows.Forms;
 
 namespace ClinicaDental2021.Vistas
 {
-    public partial class UsuariosView : Form
+    public partial class DoctoresView : Form
     {
-        public UsuariosView()
+        public DoctoresView()
         {
             InitializeComponent();
-            UsuarioController controller = new UsuarioController(this);
-        }
-
-        private void UsuariosView_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

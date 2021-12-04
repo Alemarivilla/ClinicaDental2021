@@ -11,17 +11,14 @@ using System.Windows.Forms;
 
 namespace ClinicaDental2021.Vistas
 {
-    public partial class UsuariosView : Form
+    public partial class PacienteView : Form
     {
-        public UsuariosView()
+        public PacienteView()
         {
             InitializeComponent();
-            UsuarioController controller = new UsuarioController(this);
+            PacienteController controller = new PacienteController(this);
         }
 
-        private void UsuariosView_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

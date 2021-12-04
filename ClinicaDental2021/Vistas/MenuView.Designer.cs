@@ -30,6 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             this.ribbonControlAdv1 = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
+            this.backStageView1 = new Syncfusion.Windows.Forms.BackStageView(this.components);
+            this.backStage1 = new Syncfusion.Windows.Forms.BackStage();
+            this.backStageTab1 = new Syncfusion.Windows.Forms.BackStageTab();
+            this.backStageTab2 = new Syncfusion.Windows.Forms.BackStageTab();
             this.toolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.PacientesToolStrip = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
@@ -42,10 +46,6 @@
             this.toolStripEx4 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.toolStripTabItem5 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx6 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.backStageView1 = new Syncfusion.Windows.Forms.BackStageView(this.components);
-            this.backStage1 = new Syncfusion.Windows.Forms.BackStage();
-            this.backStageTab1 = new Syncfusion.Windows.Forms.BackStageTab();
-            this.backStageTab2 = new Syncfusion.Windows.Forms.BackStageTab();
             this.toolStripTabItem6 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx7 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
             this.UsuariosToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -57,6 +57,8 @@
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
             this.ribbonControlAdv1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.backStage1)).BeginInit();
+            this.backStage1.SuspendLayout();
             this.toolStripTabItem1.Panel.SuspendLayout();
             this.toolStripEx1.SuspendLayout();
             this.PacientesToolStrip.Panel.SuspendLayout();
@@ -69,8 +71,6 @@
             this.toolStripEx4.SuspendLayout();
             this.toolStripTabItem5.Panel.SuspendLayout();
             this.toolStripEx6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.backStage1)).BeginInit();
-            this.backStage1.SuspendLayout();
             this.toolStripTabItem6.Panel.SuspendLayout();
             this.toolStripEx7.SuspendLayout();
             this.SuspendLayout();
@@ -104,7 +104,7 @@
             this.ribbonControlAdv1.QuickPanelImageLayout = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ribbonControlAdv1.RibbonHeaderImage = Syncfusion.Windows.Forms.Tools.RibbonHeaderImage.None;
             this.ribbonControlAdv1.RibbonStyle = Syncfusion.Windows.Forms.Tools.RibbonStyle.Office2016;
-            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem1;
+            this.ribbonControlAdv1.SelectedTab = this.toolStripTabItem6;
             this.ribbonControlAdv1.ShowRibbonDisplayOptionButton = true;
             this.ribbonControlAdv1.Size = new System.Drawing.Size(759, 148);
             this.ribbonControlAdv1.SystemText.QuickAccessDialogDropDownName = "Start menu";
@@ -113,6 +113,65 @@
             this.ribbonControlAdv1.Text = "ribbonControlAdv1";
             this.ribbonControlAdv1.ThemeName = "Office2016";
             this.ribbonControlAdv1.ThemeStyle.MoreCommandsStyle.PropertyGridViewBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            // 
+            // backStageView1
+            // 
+            this.backStageView1.BackStage = this.backStage1;
+            this.backStageView1.HostControl = null;
+            this.backStageView1.HostForm = this;
+            // 
+            // backStage1
+            // 
+            this.backStage1.AllowDrop = true;
+            this.backStage1.BackStagePanelWidth = 130;
+            this.backStage1.BeforeTouchSize = new System.Drawing.Size(769, 325);
+            this.backStage1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.backStage1.ChildItemSize = new System.Drawing.Size(80, 140);
+            this.backStage1.Controls.Add(this.backStageTab1);
+            this.backStage1.Controls.Add(this.backStageTab2);
+            this.backStage1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
+            this.backStage1.ItemSize = new System.Drawing.Size(130, 40);
+            this.backStage1.Location = new System.Drawing.Point(0, 0);
+            this.backStage1.MinimumSize = new System.Drawing.Size(100, 102);
+            this.backStage1.Name = "backStage1";
+            this.backStage1.OfficeColorScheme = Syncfusion.Windows.Forms.Tools.ToolStripEx.ColorScheme.Managed;
+            this.backStage1.Size = new System.Drawing.Size(769, 325);
+            this.backStage1.TabIndex = 2;
+            this.backStage1.ThemeName = "BackStage2016Renderer";
+            this.backStage1.ThemeStyle.PrimitiveButtonStyle.DisabledNextPageImage = null;
+            this.backStage1.Visible = false;
+            // 
+            // backStageTab1
+            // 
+            this.backStageTab1.Accelerator = "";
+            this.backStageTab1.BackColor = System.Drawing.Color.White;
+            this.backStageTab1.Image = null;
+            this.backStageTab1.ImageSize = new System.Drawing.Size(16, 16);
+            this.backStageTab1.Location = new System.Drawing.Point(129, 0);
+            this.backStageTab1.Name = "backStageTab1";
+            this.backStageTab1.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
+            this.backStageTab1.Position = new System.Drawing.Point(11, 51);
+            this.backStageTab1.ShowCloseButton = true;
+            this.backStageTab1.Size = new System.Drawing.Size(640, 325);
+            this.backStageTab1.TabIndex = 3;
+            this.backStageTab1.Text = "Cambiar Contraseña";
+            this.backStageTab1.ThemesEnabled = false;
+            // 
+            // backStageTab2
+            // 
+            this.backStageTab2.Accelerator = "";
+            this.backStageTab2.BackColor = System.Drawing.Color.White;
+            this.backStageTab2.Image = null;
+            this.backStageTab2.ImageSize = new System.Drawing.Size(16, 16);
+            this.backStageTab2.Location = new System.Drawing.Point(129, 0);
+            this.backStageTab2.Name = "backStageTab2";
+            this.backStageTab2.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
+            this.backStageTab2.Position = new System.Drawing.Point(52, 92);
+            this.backStageTab2.ShowCloseButton = true;
+            this.backStageTab2.Size = new System.Drawing.Size(640, 325);
+            this.backStageTab2.TabIndex = 4;
+            this.backStageTab2.Text = "Cerrar Sesión";
+            this.backStageTab2.ThemesEnabled = false;
             // 
             // toolStripTabItem1
             // 
@@ -324,64 +383,6 @@
             this.toolStripEx6.Size = new System.Drawing.Size(638, 82);
             this.toolStripEx6.TabIndex = 0;
             // 
-            // backStageView1
-            // 
-            this.backStageView1.BackStage = this.backStage1;
-            this.backStageView1.HostControl = null;
-            this.backStageView1.HostForm = this;
-            // 
-            // backStage1
-            // 
-            this.backStage1.AllowDrop = true;
-            this.backStage1.BeforeTouchSize = new System.Drawing.Size(769, 325);
-            this.backStage1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.backStage1.ChildItemSize = new System.Drawing.Size(80, 140);
-            this.backStage1.Controls.Add(this.backStageTab1);
-            this.backStage1.Controls.Add(this.backStageTab2);
-            this.backStage1.Font = new System.Drawing.Font("Segoe UI", 8.25F);
-            this.backStage1.ItemSize = new System.Drawing.Size(138, 40);
-            this.backStage1.Location = new System.Drawing.Point(4, 53);
-            this.backStage1.MinimumSize = new System.Drawing.Size(100, 96);
-            this.backStage1.Name = "backStage1";
-            this.backStage1.OfficeColorScheme = Syncfusion.Windows.Forms.Tools.ToolStripEx.ColorScheme.Managed;
-            this.backStage1.Size = new System.Drawing.Size(769, 325);
-            this.backStage1.TabIndex = 2;
-            this.backStage1.ThemeName = "BackStage2016Renderer";
-            this.backStage1.ThemeStyle.PrimitiveButtonStyle.DisabledNextPageImage = null;
-            this.backStage1.Visible = false;
-            // 
-            // backStageTab1
-            // 
-            this.backStageTab1.Accelerator = "";
-            this.backStageTab1.BackColor = System.Drawing.Color.White;
-            this.backStageTab1.Image = null;
-            this.backStageTab1.ImageSize = new System.Drawing.Size(16, 16);
-            this.backStageTab1.Location = new System.Drawing.Point(137, 0);
-            this.backStageTab1.Name = "backStageTab1";
-            this.backStageTab1.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
-            this.backStageTab1.Position = new System.Drawing.Point(0, 0);
-            this.backStageTab1.ShowCloseButton = true;
-            this.backStageTab1.Size = new System.Drawing.Size(632, 325);
-            this.backStageTab1.TabIndex = 3;
-            this.backStageTab1.Text = "Cambiar Contraseña";
-            this.backStageTab1.ThemesEnabled = false;
-            // 
-            // backStageTab2
-            // 
-            this.backStageTab2.Accelerator = "";
-            this.backStageTab2.BackColor = System.Drawing.Color.White;
-            this.backStageTab2.Image = null;
-            this.backStageTab2.ImageSize = new System.Drawing.Size(16, 16);
-            this.backStageTab2.Location = new System.Drawing.Point(137, 0);
-            this.backStageTab2.Name = "backStageTab2";
-            this.backStageTab2.Placement = Syncfusion.Windows.Forms.BackStageItemPlacement.Top;
-            this.backStageTab2.Position = new System.Drawing.Point(0, 0);
-            this.backStageTab2.ShowCloseButton = true;
-            this.backStageTab2.Size = new System.Drawing.Size(632, 325);
-            this.backStageTab2.TabIndex = 4;
-            this.backStageTab2.Text = "Cerrar Sesión";
-            this.backStageTab2.ThemesEnabled = false;
-            // 
             // toolStripTabItem6
             // 
             this.toolStripTabItem6.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -425,6 +426,7 @@
             this.UsuariosToolStripButton.Name = "UsuariosToolStripButton";
             this.UsuariosToolStripButton.Size = new System.Drawing.Size(130, 65);
             this.UsuariosToolStripButton.Text = "Lista de Usuarios";
+            this.UsuariosToolStripButton.Click += new System.EventHandler(this.UsuariosToolStripButton_Click_1);
             // 
             // toolStripButton1
             // 
@@ -434,6 +436,7 @@
             this.toolStripButton1.Name = "toolStripButton1";
             this.toolStripButton1.Size = new System.Drawing.Size(133, 65);
             this.toolStripButton1.Text = "Lista de Pacientes";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
             // 
             // toolStripButton2
             // 
@@ -443,6 +446,7 @@
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(131, 65);
             this.toolStripButton2.Text = "Lista de Doctores";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
             // 
             // toolStripButton3
             // 
@@ -452,6 +456,7 @@
             this.toolStripButton3.Name = "toolStripButton3";
             this.toolStripButton3.Size = new System.Drawing.Size(79, 65);
             this.toolStripButton3.Text = "Detalle";
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 
             // toolStripButton4
             // 
@@ -461,6 +466,7 @@
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.Size = new System.Drawing.Size(127, 65);
             this.toolStripButton4.Text = "Agenda de Citas";
+            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // toolStripButton5
             // 
@@ -470,6 +476,7 @@
             this.toolStripButton5.Name = "toolStripButton5";
             this.toolStripButton5.Size = new System.Drawing.Size(156, 65);
             this.toolStripButton5.Text = "Registro de Consultas";
+            this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
             // 
             // toolStripButton6
             // 
@@ -479,6 +486,7 @@
             this.toolStripButton6.Name = "toolStripButton6";
             this.toolStripButton6.Size = new System.Drawing.Size(129, 65);
             this.toolStripButton6.Text = "Lista de Servicios";
+            this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
             // MenuView
             // 
@@ -494,6 +502,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).EndInit();
             this.ribbonControlAdv1.ResumeLayout(false);
             this.ribbonControlAdv1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.backStage1)).EndInit();
+            this.backStage1.ResumeLayout(false);
             this.toolStripTabItem1.Panel.ResumeLayout(false);
             this.toolStripEx1.ResumeLayout(false);
             this.toolStripEx1.PerformLayout();
@@ -512,8 +522,6 @@
             this.toolStripTabItem5.Panel.ResumeLayout(false);
             this.toolStripEx6.ResumeLayout(false);
             this.toolStripEx6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.backStage1)).EndInit();
-            this.backStage1.ResumeLayout(false);
             this.toolStripTabItem6.Panel.ResumeLayout(false);
             this.toolStripEx7.ResumeLayout(false);
             this.toolStripEx7.PerformLayout();
