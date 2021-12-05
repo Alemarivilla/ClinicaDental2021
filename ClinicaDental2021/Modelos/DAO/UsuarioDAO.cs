@@ -220,7 +220,7 @@ namespace ClinicaDental2021.Modelos.DAO
                 MiConexion.Close();
 
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 MiConexion.Close();
             }

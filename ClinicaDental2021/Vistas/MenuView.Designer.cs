@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuView));
             this.ribbonControlAdv1 = new Syncfusion.Windows.Forms.Tools.RibbonControlAdv();
             this.backStageView1 = new Syncfusion.Windows.Forms.BackStageView(this.components);
             this.backStage1 = new Syncfusion.Windows.Forms.BackStage();
@@ -36,25 +37,26 @@
             this.backStageTab2 = new Syncfusion.Windows.Forms.BackStageTab();
             this.toolStripTabItem1 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx1 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.UsuariosToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.PacientesToolStrip = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx2 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem2 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx5 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem3 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx3 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem4 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx4 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem5 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx6 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
+            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.toolStripTabItem6 = new Syncfusion.Windows.Forms.Tools.ToolStripTabItem();
             this.toolStripEx7 = new Syncfusion.Windows.Forms.Tools.ToolStripEx();
-            this.UsuariosToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton6 = new System.Windows.Forms.ToolStripButton();
+            this.tabbedMDIManager1 = new Syncfusion.Windows.Forms.Tools.TabbedMDIManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControlAdv1)).BeginInit();
             this.ribbonControlAdv1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.backStage1)).BeginInit();
@@ -186,7 +188,7 @@
             this.toolStripTabItem1.Panel.TabIndex = 2;
             this.toolStripTabItem1.Panel.Text = "Usuarios";
             this.toolStripTabItem1.Position = 0;
-            this.toolStripTabItem1.Size = new System.Drawing.Size(78, 22);
+            this.toolStripTabItem1.Size = new System.Drawing.Size(88, 30);
             this.toolStripTabItem1.Tag = "1";
             this.toolStripTabItem1.Text = "Usuarios";
             // 
@@ -208,6 +210,16 @@
             this.toolStripEx1.Size = new System.Drawing.Size(239, 82);
             this.toolStripEx1.TabIndex = 0;
             // 
+            // UsuariosToolStripButton
+            // 
+            this.UsuariosToolStripButton.Image = global::ClinicaDental2021.Properties.Resources.programador;
+            this.UsuariosToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.UsuariosToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.UsuariosToolStripButton.Name = "UsuariosToolStripButton";
+            this.UsuariosToolStripButton.Size = new System.Drawing.Size(130, 65);
+            this.UsuariosToolStripButton.Text = "Lista de Usuarios";
+            this.UsuariosToolStripButton.Click += new System.EventHandler(this.UsuariosToolStripButton_Click_1);
+            // 
             // PacientesToolStrip
             // 
             this.PacientesToolStrip.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -221,7 +233,7 @@
             this.PacientesToolStrip.Panel.TabIndex = 3;
             this.PacientesToolStrip.Panel.Text = "Pacientes";
             this.PacientesToolStrip.Position = 1;
-            this.PacientesToolStrip.Size = new System.Drawing.Size(83, 22);
+            this.PacientesToolStrip.Size = new System.Drawing.Size(93, 30);
             this.PacientesToolStrip.Tag = "2";
             this.PacientesToolStrip.Text = "Pacientes";
             // 
@@ -243,6 +255,16 @@
             this.toolStripEx2.Size = new System.Drawing.Size(398, 82);
             this.toolStripEx2.TabIndex = 0;
             // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.Image = global::ClinicaDental2021.Properties.Resources.paciente;
+            this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(133, 65);
+            this.toolStripButton1.Text = "Lista de Pacientes";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
+            // 
             // toolStripTabItem2
             // 
             this.toolStripTabItem2.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -256,7 +278,7 @@
             this.toolStripTabItem2.Panel.TabIndex = 4;
             this.toolStripTabItem2.Panel.Text = "Doctores";
             this.toolStripTabItem2.Position = 2;
-            this.toolStripTabItem2.Size = new System.Drawing.Size(79, 22);
+            this.toolStripTabItem2.Size = new System.Drawing.Size(89, 30);
             this.toolStripTabItem2.Tag = "2";
             this.toolStripTabItem2.Text = "Doctores";
             // 
@@ -278,6 +300,16 @@
             this.toolStripEx5.Size = new System.Drawing.Size(345, 82);
             this.toolStripEx5.TabIndex = 2;
             // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.Image = global::ClinicaDental2021.Properties.Resources.doctor;
+            this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(131, 65);
+            this.toolStripButton2.Text = "Lista de Doctores";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
+            // 
             // toolStripTabItem3
             // 
             this.toolStripTabItem3.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -291,7 +323,7 @@
             this.toolStripTabItem3.Panel.TabIndex = 5;
             this.toolStripTabItem3.Panel.Text = "Factura";
             this.toolStripTabItem3.Position = 3;
-            this.toolStripTabItem3.Size = new System.Drawing.Size(70, 22);
+            this.toolStripTabItem3.Size = new System.Drawing.Size(80, 30);
             this.toolStripTabItem3.Tag = "3";
             this.toolStripTabItem3.Text = "Factura";
             // 
@@ -313,6 +345,16 @@
             this.toolStripEx3.Size = new System.Drawing.Size(481, 82);
             this.toolStripEx3.TabIndex = 0;
             // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.Image = global::ClinicaDental2021.Properties.Resources.factura;
+            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(79, 65);
+            this.toolStripButton3.Text = "Detalle";
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
+            // 
             // toolStripTabItem4
             // 
             this.toolStripTabItem4.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -326,7 +368,7 @@
             this.toolStripTabItem4.Panel.TabIndex = 6;
             this.toolStripTabItem4.Panel.Text = "Citas";
             this.toolStripTabItem4.Position = 4;
-            this.toolStripTabItem4.Size = new System.Drawing.Size(50, 22);
+            this.toolStripTabItem4.Size = new System.Drawing.Size(60, 30);
             this.toolStripTabItem4.Tag = "4";
             this.toolStripTabItem4.Text = "Citas";
             // 
@@ -348,6 +390,16 @@
             this.toolStripEx4.Size = new System.Drawing.Size(531, 82);
             this.toolStripEx4.TabIndex = 0;
             // 
+            // toolStripButton4
+            // 
+            this.toolStripButton4.Image = global::ClinicaDental2021.Properties.Resources.cita_medica;
+            this.toolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.Size = new System.Drawing.Size(127, 65);
+            this.toolStripButton4.Text = "Agenda de Citas";
+            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
+            // 
             // toolStripTabItem5
             // 
             this.toolStripTabItem5.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -361,7 +413,7 @@
             this.toolStripTabItem5.Panel.TabIndex = 7;
             this.toolStripTabItem5.Panel.Text = "Consulta";
             this.toolStripTabItem5.Position = 5;
-            this.toolStripTabItem5.Size = new System.Drawing.Size(79, 22);
+            this.toolStripTabItem5.Size = new System.Drawing.Size(89, 30);
             this.toolStripTabItem5.Tag = "5";
             this.toolStripTabItem5.Text = "Consulta";
             // 
@@ -383,6 +435,16 @@
             this.toolStripEx6.Size = new System.Drawing.Size(638, 82);
             this.toolStripEx6.TabIndex = 0;
             // 
+            // toolStripButton5
+            // 
+            this.toolStripButton5.Image = global::ClinicaDental2021.Properties.Resources.doctor_en_medicina;
+            this.toolStripButton5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
+            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton5.Name = "toolStripButton5";
+            this.toolStripButton5.Size = new System.Drawing.Size(156, 65);
+            this.toolStripButton5.Text = "Registro de Consultas";
+            this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
+            // 
             // toolStripTabItem6
             // 
             this.toolStripTabItem6.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -396,7 +458,7 @@
             this.toolStripTabItem6.Panel.TabIndex = 8;
             this.toolStripTabItem6.Panel.Text = "Servicios";
             this.toolStripTabItem6.Position = 6;
-            this.toolStripTabItem6.Size = new System.Drawing.Size(80, 22);
+            this.toolStripTabItem6.Size = new System.Drawing.Size(90, 30);
             this.toolStripTabItem6.Tag = "6";
             this.toolStripTabItem6.Text = "Servicios";
             // 
@@ -418,66 +480,6 @@
             this.toolStripEx7.Size = new System.Drawing.Size(698, 82);
             this.toolStripEx7.TabIndex = 0;
             // 
-            // UsuariosToolStripButton
-            // 
-            this.UsuariosToolStripButton.Image = global::ClinicaDental2021.Properties.Resources.programador;
-            this.UsuariosToolStripButton.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.UsuariosToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.UsuariosToolStripButton.Name = "UsuariosToolStripButton";
-            this.UsuariosToolStripButton.Size = new System.Drawing.Size(130, 65);
-            this.UsuariosToolStripButton.Text = "Lista de Usuarios";
-            this.UsuariosToolStripButton.Click += new System.EventHandler(this.UsuariosToolStripButton_Click_1);
-            // 
-            // toolStripButton1
-            // 
-            this.toolStripButton1.Image = global::ClinicaDental2021.Properties.Resources.paciente;
-            this.toolStripButton1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(133, 65);
-            this.toolStripButton1.Text = "Lista de Pacientes";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click);
-            // 
-            // toolStripButton2
-            // 
-            this.toolStripButton2.Image = global::ClinicaDental2021.Properties.Resources.doctor;
-            this.toolStripButton2.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton2.Name = "toolStripButton2";
-            this.toolStripButton2.Size = new System.Drawing.Size(131, 65);
-            this.toolStripButton2.Text = "Lista de Doctores";
-            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
-            // 
-            // toolStripButton3
-            // 
-            this.toolStripButton3.Image = global::ClinicaDental2021.Properties.Resources.factura;
-            this.toolStripButton3.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(79, 65);
-            this.toolStripButton3.Text = "Detalle";
-            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
-            // 
-            // toolStripButton4
-            // 
-            this.toolStripButton4.Image = global::ClinicaDental2021.Properties.Resources.cita_medica;
-            this.toolStripButton4.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(127, 65);
-            this.toolStripButton4.Text = "Agenda de Citas";
-            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
-            // 
-            // toolStripButton5
-            // 
-            this.toolStripButton5.Image = global::ClinicaDental2021.Properties.Resources.doctor_en_medicina;
-            this.toolStripButton5.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton5.Name = "toolStripButton5";
-            this.toolStripButton5.Size = new System.Drawing.Size(156, 65);
-            this.toolStripButton5.Text = "Registro de Consultas";
-            this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
-            // 
             // toolStripButton6
             // 
             this.toolStripButton6.Image = global::ClinicaDental2021.Properties.Resources.servicios_medicos;
@@ -488,6 +490,17 @@
             this.toolStripButton6.Text = "Lista de Servicios";
             this.toolStripButton6.Click += new System.EventHandler(this.toolStripButton6_Click);
             // 
+            // tabbedMDIManager1
+            // 
+            this.tabbedMDIManager1.AttachedTo = this;
+            this.tabbedMDIManager1.CloseButtonBackColor = System.Drawing.Color.White;
+            this.tabbedMDIManager1.CloseButtonToolTip = "";
+            this.tabbedMDIManager1.DropDownButtonToolTip = "";
+            this.tabbedMDIManager1.ImageSize = new System.Drawing.Size(16, 16);
+            this.tabbedMDIManager1.NeedUpdateHostedForm = false;
+            this.tabbedMDIManager1.TabStyle = typeof(Syncfusion.Windows.Forms.Tools.TabRendererVS2010);
+            this.tabbedMDIManager1.ThemeName = "TabRendererVS2010";
+            // 
             // MenuView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -495,6 +508,7 @@
             this.ClientSize = new System.Drawing.Size(759, 340);
             this.Controls.Add(this.backStage1);
             this.Controls.Add(this.ribbonControlAdv1);
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.IsMdiContainer = true;
             this.Name = "MenuView";
             this.Text = "MenuView";
@@ -557,5 +571,6 @@
         private Syncfusion.Windows.Forms.Tools.ToolStripTabItem toolStripTabItem6;
         private Syncfusion.Windows.Forms.Tools.ToolStripEx toolStripEx7;
         private System.Windows.Forms.ToolStripButton toolStripButton6;
+        private Syncfusion.Windows.Forms.Tools.TabbedMDIManager tabbedMDIManager1;
     }
 }

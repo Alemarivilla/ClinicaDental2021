@@ -44,10 +44,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.ImagenButton = new System.Windows.Forms.Button();
-            this.UsuarioTextBox = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.ImagenPictureBox = new System.Windows.Forms.PictureBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.CodigoTextBox = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DoctoresDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImagenPictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -57,17 +57,17 @@
             // 
             this.DoctoresDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.DoctoresDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DoctoresDataGridView.Location = new System.Drawing.Point(66, 252);
-            this.DoctoresDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DoctoresDataGridView.Location = new System.Drawing.Point(66, 234);
+            this.DoctoresDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.DoctoresDataGridView.Name = "DoctoresDataGridView";
-            this.DoctoresDataGridView.Size = new System.Drawing.Size(591, 110);
+            this.DoctoresDataGridView.Size = new System.Drawing.Size(769, 171);
             this.DoctoresDataGridView.TabIndex = 35;
             // 
             // CancelarButton
             // 
             this.CancelarButton.Enabled = false;
-            this.CancelarButton.Location = new System.Drawing.Point(530, 195);
-            this.CancelarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CancelarButton.Location = new System.Drawing.Point(522, 191);
+            this.CancelarButton.Margin = new System.Windows.Forms.Padding(4);
             this.CancelarButton.Name = "CancelarButton";
             this.CancelarButton.Size = new System.Drawing.Size(108, 31);
             this.CancelarButton.TabIndex = 34;
@@ -76,8 +76,8 @@
             // 
             // EliminarButton
             // 
-            this.EliminarButton.Location = new System.Drawing.Point(414, 195);
-            this.EliminarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EliminarButton.Location = new System.Drawing.Point(406, 191);
+            this.EliminarButton.Margin = new System.Windows.Forms.Padding(4);
             this.EliminarButton.Name = "EliminarButton";
             this.EliminarButton.Size = new System.Drawing.Size(108, 31);
             this.EliminarButton.TabIndex = 33;
@@ -87,8 +87,8 @@
             // GuardarButton
             // 
             this.GuardarButton.Enabled = false;
-            this.GuardarButton.Location = new System.Drawing.Point(298, 195);
-            this.GuardarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GuardarButton.Location = new System.Drawing.Point(290, 191);
+            this.GuardarButton.Margin = new System.Windows.Forms.Padding(4);
             this.GuardarButton.Name = "GuardarButton";
             this.GuardarButton.Size = new System.Drawing.Size(108, 31);
             this.GuardarButton.TabIndex = 32;
@@ -97,8 +97,8 @@
             // 
             // ModificarButton
             // 
-            this.ModificarButton.Location = new System.Drawing.Point(182, 195);
-            this.ModificarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ModificarButton.Location = new System.Drawing.Point(174, 191);
+            this.ModificarButton.Margin = new System.Windows.Forms.Padding(4);
             this.ModificarButton.Name = "ModificarButton";
             this.ModificarButton.Size = new System.Drawing.Size(108, 31);
             this.ModificarButton.TabIndex = 31;
@@ -107,8 +107,8 @@
             // 
             // NuevoButton
             // 
-            this.NuevoButton.Location = new System.Drawing.Point(66, 195);
-            this.NuevoButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NuevoButton.Location = new System.Drawing.Point(58, 191);
+            this.NuevoButton.Margin = new System.Windows.Forms.Padding(4);
             this.NuevoButton.Name = "NuevoButton";
             this.NuevoButton.Size = new System.Drawing.Size(108, 31);
             this.NuevoButton.TabIndex = 30;
@@ -118,8 +118,8 @@
             // EspecialidadTextBox
             // 
             this.EspecialidadTextBox.Enabled = false;
-            this.EspecialidadTextBox.Location = new System.Drawing.Point(200, 153);
-            this.EspecialidadTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EspecialidadTextBox.Location = new System.Drawing.Point(200, 157);
+            this.EspecialidadTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.EspecialidadTextBox.Name = "EspecialidadTextBox";
             this.EspecialidadTextBox.Size = new System.Drawing.Size(392, 22);
             this.EspecialidadTextBox.TabIndex = 29;
@@ -127,8 +127,8 @@
             // TelefonoTextBox
             // 
             this.TelefonoTextBox.Enabled = false;
-            this.TelefonoTextBox.Location = new System.Drawing.Point(200, 123);
-            this.TelefonoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TelefonoTextBox.Location = new System.Drawing.Point(200, 127);
+            this.TelefonoTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.TelefonoTextBox.Name = "TelefonoTextBox";
             this.TelefonoTextBox.Size = new System.Drawing.Size(392, 22);
             this.TelefonoTextBox.TabIndex = 28;
@@ -136,8 +136,8 @@
             // NombreTextBox
             // 
             this.NombreTextBox.Enabled = false;
-            this.NombreTextBox.Location = new System.Drawing.Point(200, 94);
-            this.NombreTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NombreTextBox.Location = new System.Drawing.Point(200, 97);
+            this.NombreTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.NombreTextBox.Name = "NombreTextBox";
             this.NombreTextBox.Size = new System.Drawing.Size(392, 22);
             this.NombreTextBox.TabIndex = 27;
@@ -145,7 +145,7 @@
             // IdTextBox
             // 
             this.IdTextBox.Location = new System.Drawing.Point(200, 26);
-            this.IdTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IdTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.IdTextBox.Name = "IdTextBox";
             this.IdTextBox.ReadOnly = true;
             this.IdTextBox.Size = new System.Drawing.Size(164, 22);
@@ -154,7 +154,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(93, 152);
+            this.label4.Location = new System.Drawing.Point(93, 163);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(91, 16);
@@ -164,7 +164,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(93, 123);
+            this.label3.Location = new System.Drawing.Point(93, 127);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(65, 16);
@@ -174,7 +174,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(93, 94);
+            this.label2.Location = new System.Drawing.Point(93, 97);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(60, 16);
@@ -193,39 +193,20 @@
             // 
             // ImagenButton
             // 
-            this.ImagenButton.Location = new System.Drawing.Point(726, 123);
-            this.ImagenButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ImagenButton.Location = new System.Drawing.Point(761, 195);
+            this.ImagenButton.Margin = new System.Windows.Forms.Padding(4);
             this.ImagenButton.Name = "ImagenButton";
-            this.ImagenButton.Size = new System.Drawing.Size(74, 28);
+            this.ImagenButton.Size = new System.Drawing.Size(74, 31);
             this.ImagenButton.TabIndex = 37;
             this.ImagenButton.Text = "imagen...";
             this.ImagenButton.UseVisualStyleBackColor = true;
             // 
-            // UsuarioTextBox
-            // 
-            this.UsuarioTextBox.Enabled = false;
-            this.UsuarioTextBox.Location = new System.Drawing.Point(200, 62);
-            this.UsuarioTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.UsuarioTextBox.Name = "UsuarioTextBox";
-            this.UsuarioTextBox.Size = new System.Drawing.Size(392, 22);
-            this.UsuarioTextBox.TabIndex = 39;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(93, 62);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 16);
-            this.label5.TabIndex = 38;
-            this.label5.Text = "Usuario:";
-            // 
             // ImagenPictureBox
             // 
             this.ImagenPictureBox.Location = new System.Drawing.Point(662, 26);
-            this.ImagenPictureBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ImagenPictureBox.Margin = new System.Windows.Forms.Padding(4);
             this.ImagenPictureBox.Name = "ImagenPictureBox";
-            this.ImagenPictureBox.Size = new System.Drawing.Size(138, 84);
+            this.ImagenPictureBox.Size = new System.Drawing.Size(173, 162);
             this.ImagenPictureBox.TabIndex = 36;
             this.ImagenPictureBox.TabStop = false;
             // 
@@ -233,13 +214,32 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // CodigoTextBox
+            // 
+            this.CodigoTextBox.Enabled = false;
+            this.CodigoTextBox.Location = new System.Drawing.Point(200, 63);
+            this.CodigoTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.CodigoTextBox.Name = "CodigoTextBox";
+            this.CodigoTextBox.Size = new System.Drawing.Size(392, 22);
+            this.CodigoTextBox.TabIndex = 39;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(93, 63);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(55, 16);
+            this.label5.TabIndex = 38;
+            this.label5.Text = "Codigo:";
+            // 
             // DoctoresView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(848, 453);
-            this.Controls.Add(this.UsuarioTextBox);
+            this.Controls.Add(this.CodigoTextBox);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.ImagenButton);
             this.Controls.Add(this.ImagenPictureBox);
@@ -259,7 +259,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DoctoresView";
             this.Text = "Doctores";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -287,10 +287,10 @@
         public System.Windows.Forms.Label label3;
         public System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox UsuarioTextBox;
-        public System.Windows.Forms.Label label5;
         public System.Windows.Forms.Button ImagenButton;
         public System.Windows.Forms.PictureBox ImagenPictureBox;
         public System.Windows.Forms.ErrorProvider errorProvider1;
+        public System.Windows.Forms.TextBox CodigoTextBox;
+        public System.Windows.Forms.Label label5;
     }
 }

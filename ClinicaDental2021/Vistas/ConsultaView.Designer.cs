@@ -29,22 +29,18 @@
         private void InitializeComponent()
         {
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
+            this.AntecedentesTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.MotivoTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.SintomasTextBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.DiagnosticoTextBox = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.TratamientoTextBox = new System.Windows.Forms.TextBox();
+            this.DoctorTextBox = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.UsuarioTextBox = new System.Windows.Forms.TextBox();
+            this.PacienteTextBox = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.CancelarButton = new System.Windows.Forms.Button();
             this.EliminarButton = new System.Windows.Forms.Button();
@@ -52,181 +48,140 @@
             this.ModificarButton = new System.Windows.Forms.Button();
             this.NuevoButton = new System.Windows.Forms.Button();
             this.ConsultasDataGridView = new System.Windows.Forms.DataGridView();
+            this.CodigoTextBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.IdentidadTextBox = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.ConsultasDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(61, 89);
+            this.label6.Location = new System.Drawing.Point(59, 137);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(94, 16);
             this.label6.TabIndex = 17;
             this.label6.Text = "Antecedentes:";
             // 
-            // textBox2
+            // AntecedentesTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(63, 120);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(367, 62);
-            this.textBox2.TabIndex = 16;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(75, 147);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 16);
-            this.label5.TabIndex = 15;
-            this.label5.Text = "Motivo:";
+            this.AntecedentesTextBox.Location = new System.Drawing.Point(62, 157);
+            this.AntecedentesTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.AntecedentesTextBox.Multiline = true;
+            this.AntecedentesTextBox.Name = "AntecedentesTextBox";
+            this.AntecedentesTextBox.Size = new System.Drawing.Size(367, 43);
+            this.AntecedentesTextBox.TabIndex = 16;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(534, 89);
+            this.label1.Location = new System.Drawing.Point(538, 137);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(51, 16);
             this.label1.TabIndex = 20;
             this.label1.Text = "Motivo:";
             // 
-            // textBox1
+            // MotivoTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(537, 120);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(353, 62);
-            this.textBox1.TabIndex = 19;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(807, 147);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(51, 16);
-            this.label2.TabIndex = 18;
-            this.label2.Text = "Motivo:";
+            this.MotivoTextBox.Location = new System.Drawing.Point(535, 157);
+            this.MotivoTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.MotivoTextBox.Multiline = true;
+            this.MotivoTextBox.Name = "MotivoTextBox";
+            this.MotivoTextBox.Size = new System.Drawing.Size(353, 43);
+            this.MotivoTextBox.TabIndex = 19;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(60, 195);
+            this.label3.Location = new System.Drawing.Point(61, 204);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(67, 16);
             this.label3.TabIndex = 23;
             this.label3.Text = "Sintomas:";
             // 
-            // textBox3
+            // SintomasTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(63, 215);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(367, 69);
-            this.textBox3.TabIndex = 22;
+            this.SintomasTextBox.Location = new System.Drawing.Point(62, 224);
+            this.SintomasTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.SintomasTextBox.Multiline = true;
+            this.SintomasTextBox.Name = "SintomasTextBox";
+            this.SintomasTextBox.Size = new System.Drawing.Size(367, 49);
+            this.SintomasTextBox.TabIndex = 22;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(534, 195);
+            this.label7.Location = new System.Drawing.Point(534, 204);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(83, 16);
             this.label7.TabIndex = 26;
             this.label7.Text = "Diagnostico:";
             // 
-            // textBox4
+            // DiagnosticoTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(537, 215);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(353, 69);
-            this.textBox4.TabIndex = 25;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(60, 305);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(83, 16);
-            this.label9.TabIndex = 29;
-            this.label9.Text = "Diagnostico:";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(64, 325);
-            this.textBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(366, 71);
-            this.textBox5.TabIndex = 28;
+            this.DiagnosticoTextBox.Location = new System.Drawing.Point(536, 224);
+            this.DiagnosticoTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.DiagnosticoTextBox.Multiline = true;
+            this.DiagnosticoTextBox.Name = "DiagnosticoTextBox";
+            this.DiagnosticoTextBox.Size = new System.Drawing.Size(353, 49);
+            this.DiagnosticoTextBox.TabIndex = 25;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(534, 305);
+            this.label11.Location = new System.Drawing.Point(59, 277);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(83, 16);
             this.label11.TabIndex = 32;
             this.label11.Text = "Tratamiento:";
             // 
-            // textBox6
+            // TratamientoTextBox
             // 
-            this.textBox6.Location = new System.Drawing.Point(537, 325);
-            this.textBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(353, 71);
-            this.textBox6.TabIndex = 31;
+            this.TratamientoTextBox.Location = new System.Drawing.Point(62, 297);
+            this.TratamientoTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.TratamientoTextBox.Multiline = true;
+            this.TratamientoTextBox.Name = "TratamientoTextBox";
+            this.TratamientoTextBox.Size = new System.Drawing.Size(827, 48);
+            this.TratamientoTextBox.TabIndex = 31;
             // 
-            // textBox7
+            // DoctorTextBox
             // 
-            this.textBox7.Location = new System.Drawing.Point(537, 50);
-            this.textBox7.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.ReadOnly = true;
-            this.textBox7.Size = new System.Drawing.Size(353, 22);
-            this.textBox7.TabIndex = 36;
+            this.DoctorTextBox.Location = new System.Drawing.Point(535, 102);
+            this.DoctorTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.DoctorTextBox.Name = "DoctorTextBox";
+            this.DoctorTextBox.ReadOnly = true;
+            this.DoctorTextBox.Size = new System.Drawing.Size(353, 22);
+            this.DoctorTextBox.TabIndex = 36;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(534, 30);
+            this.label13.Location = new System.Drawing.Point(532, 82);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(51, 16);
             this.label13.TabIndex = 35;
             this.label13.Text = "Doctor:";
             // 
-            // UsuarioTextBox
+            // PacienteTextBox
             // 
-            this.UsuarioTextBox.Location = new System.Drawing.Point(77, 50);
-            this.UsuarioTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.UsuarioTextBox.Name = "UsuarioTextBox";
-            this.UsuarioTextBox.ReadOnly = true;
-            this.UsuarioTextBox.Size = new System.Drawing.Size(353, 22);
-            this.UsuarioTextBox.TabIndex = 34;
+            this.PacienteTextBox.Location = new System.Drawing.Point(535, 56);
+            this.PacienteTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.PacienteTextBox.Name = "PacienteTextBox";
+            this.PacienteTextBox.ReadOnly = true;
+            this.PacienteTextBox.Size = new System.Drawing.Size(353, 22);
+            this.PacienteTextBox.TabIndex = 34;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(73, 31);
+            this.label14.Location = new System.Drawing.Point(531, 37);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(64, 16);
@@ -236,20 +191,20 @@
             // CancelarButton
             // 
             this.CancelarButton.Enabled = false;
-            this.CancelarButton.Location = new System.Drawing.Point(688, 416);
-            this.CancelarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CancelarButton.Location = new System.Drawing.Point(675, 348);
+            this.CancelarButton.Margin = new System.Windows.Forms.Padding(4);
             this.CancelarButton.Name = "CancelarButton";
-            this.CancelarButton.Size = new System.Drawing.Size(141, 48);
+            this.CancelarButton.Size = new System.Drawing.Size(141, 37);
             this.CancelarButton.TabIndex = 41;
             this.CancelarButton.Text = "Cancelar";
             this.CancelarButton.UseVisualStyleBackColor = true;
             // 
             // EliminarButton
             // 
-            this.EliminarButton.Location = new System.Drawing.Point(551, 416);
-            this.EliminarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EliminarButton.Location = new System.Drawing.Point(538, 348);
+            this.EliminarButton.Margin = new System.Windows.Forms.Padding(4);
             this.EliminarButton.Name = "EliminarButton";
-            this.EliminarButton.Size = new System.Drawing.Size(141, 48);
+            this.EliminarButton.Size = new System.Drawing.Size(141, 37);
             this.EliminarButton.TabIndex = 40;
             this.EliminarButton.Text = "Eliminar";
             this.EliminarButton.UseVisualStyleBackColor = true;
@@ -257,30 +212,30 @@
             // GuardarButton
             // 
             this.GuardarButton.Enabled = false;
-            this.GuardarButton.Location = new System.Drawing.Point(422, 416);
-            this.GuardarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GuardarButton.Location = new System.Drawing.Point(409, 348);
+            this.GuardarButton.Margin = new System.Windows.Forms.Padding(4);
             this.GuardarButton.Name = "GuardarButton";
-            this.GuardarButton.Size = new System.Drawing.Size(136, 48);
+            this.GuardarButton.Size = new System.Drawing.Size(136, 37);
             this.GuardarButton.TabIndex = 39;
             this.GuardarButton.Text = "Guardar";
             this.GuardarButton.UseVisualStyleBackColor = true;
             // 
             // ModificarButton
             // 
-            this.ModificarButton.Location = new System.Drawing.Point(296, 416);
-            this.ModificarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ModificarButton.Location = new System.Drawing.Point(283, 348);
+            this.ModificarButton.Margin = new System.Windows.Forms.Padding(4);
             this.ModificarButton.Name = "ModificarButton";
-            this.ModificarButton.Size = new System.Drawing.Size(133, 48);
+            this.ModificarButton.Size = new System.Drawing.Size(133, 37);
             this.ModificarButton.TabIndex = 38;
             this.ModificarButton.Text = "Modificar";
             this.ModificarButton.UseVisualStyleBackColor = true;
             // 
             // NuevoButton
             // 
-            this.NuevoButton.Location = new System.Drawing.Point(162, 416);
-            this.NuevoButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NuevoButton.Location = new System.Drawing.Point(149, 348);
+            this.NuevoButton.Margin = new System.Windows.Forms.Padding(4);
             this.NuevoButton.Name = "NuevoButton";
-            this.NuevoButton.Size = new System.Drawing.Size(147, 48);
+            this.NuevoButton.Size = new System.Drawing.Size(147, 37);
             this.NuevoButton.TabIndex = 37;
             this.NuevoButton.Text = "Nuevo";
             this.NuevoButton.UseVisualStyleBackColor = true;
@@ -289,46 +244,83 @@
             // 
             this.ConsultasDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.ConsultasDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.ConsultasDataGridView.Location = new System.Drawing.Point(63, 472);
-            this.ConsultasDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ConsultasDataGridView.Location = new System.Drawing.Point(62, 393);
+            this.ConsultasDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.ConsultasDataGridView.Name = "ConsultasDataGridView";
             this.ConsultasDataGridView.Size = new System.Drawing.Size(826, 114);
             this.ConsultasDataGridView.TabIndex = 42;
+            // 
+            // CodigoTextBox
+            // 
+            this.CodigoTextBox.Location = new System.Drawing.Point(60, 105);
+            this.CodigoTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.CodigoTextBox.Name = "CodigoTextBox";
+            this.CodigoTextBox.Size = new System.Drawing.Size(369, 22);
+            this.CodigoTextBox.TabIndex = 48;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(56, 86);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(55, 16);
+            this.label2.TabIndex = 47;
+            this.label2.Text = "Codigo:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(59, 36);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 16);
+            this.label4.TabIndex = 46;
+            this.label4.Text = "Identidad:";
+            // 
+            // IdentidadTextBox
+            // 
+            this.IdentidadTextBox.Location = new System.Drawing.Point(62, 56);
+            this.IdentidadTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.IdentidadTextBox.Mask = "####-####-#####";
+            this.IdentidadTextBox.Name = "IdentidadTextBox";
+            this.IdentidadTextBox.Size = new System.Drawing.Size(367, 22);
+            this.IdentidadTextBox.TabIndex = 45;
             // 
             // ConsultaView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(973, 593);
+            this.ClientSize = new System.Drawing.Size(973, 520);
+            this.Controls.Add(this.CodigoTextBox);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.IdentidadTextBox);
             this.Controls.Add(this.ConsultasDataGridView);
             this.Controls.Add(this.CancelarButton);
             this.Controls.Add(this.EliminarButton);
             this.Controls.Add(this.GuardarButton);
             this.Controls.Add(this.ModificarButton);
             this.Controls.Add(this.NuevoButton);
-            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.DoctorTextBox);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.UsuarioTextBox);
+            this.Controls.Add(this.PacienteTextBox);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.TratamientoTextBox);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.DiagnosticoTextBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.SintomasTextBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.MotivoTextBox);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label5);
+            this.Controls.Add(this.AntecedentesTextBox);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ConsultaView";
-            this.Text = "ConsultaView";
+            this.Text = "Consulta";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.ConsultasDataGridView)).EndInit();
             this.ResumeLayout(false);
@@ -339,22 +331,18 @@
         #endregion
 
         private System.Windows.Forms.Label label6;
-        public System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label5;
+        public System.Windows.Forms.TextBox AntecedentesTextBox;
         private System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
+        public System.Windows.Forms.TextBox MotivoTextBox;
         private System.Windows.Forms.Label label3;
-        public System.Windows.Forms.TextBox textBox3;
+        public System.Windows.Forms.TextBox SintomasTextBox;
         private System.Windows.Forms.Label label7;
-        public System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label9;
-        public System.Windows.Forms.TextBox textBox5;
+        public System.Windows.Forms.TextBox DiagnosticoTextBox;
         private System.Windows.Forms.Label label11;
-        public System.Windows.Forms.TextBox textBox6;
-        public System.Windows.Forms.TextBox textBox7;
+        public System.Windows.Forms.TextBox TratamientoTextBox;
+        public System.Windows.Forms.TextBox DoctorTextBox;
         private System.Windows.Forms.Label label13;
-        public System.Windows.Forms.TextBox UsuarioTextBox;
+        public System.Windows.Forms.TextBox PacienteTextBox;
         private System.Windows.Forms.Label label14;
         public System.Windows.Forms.Button CancelarButton;
         public System.Windows.Forms.Button EliminarButton;
@@ -362,5 +350,9 @@
         public System.Windows.Forms.Button ModificarButton;
         public System.Windows.Forms.Button NuevoButton;
         public System.Windows.Forms.DataGridView ConsultasDataGridView;
+        public System.Windows.Forms.TextBox CodigoTextBox;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label4;
+        public System.Windows.Forms.MaskedTextBox IdentidadTextBox;
     }
 }

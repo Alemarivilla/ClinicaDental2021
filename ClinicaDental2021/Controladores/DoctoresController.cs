@@ -86,10 +86,11 @@ namespace ClinicaDental2021.Controladores
                 return;
             }
 
-            doctor.IdUsuario = int.Parse(vista.UsuarioTextBox.Text);
+            doctor.Codigo = vista.CodigoTextBox.Text;
             doctor.Nombre = vista.NombreTextBox.Text;
             doctor.Telefono = vista.TelefonoTextBox.Text;
             doctor.Especialidad = vista.EspecialidadTextBox.Text;
+            
 
             if (vista.ImagenPictureBox.Image != null)
             {
@@ -123,11 +124,11 @@ namespace ClinicaDental2021.Controladores
 
         private void HabilitarControles()
         {
-            vista.UsuarioTextBox.Enabled = true;
+            
             vista.NombreTextBox.Enabled = true;
             vista.EspecialidadTextBox.Enabled = true;
             vista.TelefonoTextBox.Enabled = true;
-            
+            vista.CodigoTextBox.Enabled = true;
             vista.ImagenPictureBox.Enabled = true;
             vista.ImagenButton.Enabled = true;
             vista.GuardarButton.Enabled = true;
@@ -140,6 +141,7 @@ namespace ClinicaDental2021.Controladores
         private void LimpiarControles()
         {          
             vista.NombreTextBox.Clear();
+            vista.CodigoTextBox.Clear();
             vista.EspecialidadTextBox.Clear();
             vista.TelefonoTextBox.Clear();
             vista.ImagenPictureBox.Image = null;
@@ -149,7 +151,7 @@ namespace ClinicaDental2021.Controladores
         private void DesabilitarControles()
         {
             vista.NombreTextBox.Enabled = false;
-            vista.UsuarioTextBox.Enabled = false;
+            vista.CodigoTextBox.Enabled = false;
             vista.EspecialidadTextBox.Enabled = false;
             vista.TelefonoTextBox.Enabled = false;
 

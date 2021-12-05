@@ -35,16 +35,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.BuscarClienteButton = new System.Windows.Forms.Button();
-            this.NombreClienteTextBox = new System.Windows.Forms.TextBox();
+            this.NombrePacienteTextBox = new System.Windows.Forms.TextBox();
             this.IdentidadTextBox = new System.Windows.Forms.MaskedTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.CantidadTextBox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.CodigoProductoTextBox = new System.Windows.Forms.TextBox();
-            this.BuscarProductoButton = new System.Windows.Forms.Button();
-            this.DescripcionProductoText = new System.Windows.Forms.TextBox();
+            this.CodigoServicioTextBox = new System.Windows.Forms.TextBox();
+            this.BuscarServicioButton = new System.Windows.Forms.Button();
+            this.DescripcionServicioText = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.DetalleDataGridView = new System.Windows.Forms.DataGridView();
@@ -76,10 +76,10 @@
             this.groupBox1.Controls.Add(this.UsuarioTextBox);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(16, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(1097, 79);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Size = new System.Drawing.Size(974, 79);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -87,7 +87,7 @@
             // 
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePicker1.Location = new System.Drawing.Point(461, 39);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(155, 22);
             this.dateTimePicker1.TabIndex = 3;
@@ -105,10 +105,10 @@
             // UsuarioTextBox
             // 
             this.UsuarioTextBox.Location = new System.Drawing.Point(31, 39);
-            this.UsuarioTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.UsuarioTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.UsuarioTextBox.Name = "UsuarioTextBox";
             this.UsuarioTextBox.ReadOnly = true;
-            this.UsuarioTextBox.Size = new System.Drawing.Size(353, 22);
+            this.UsuarioTextBox.Size = new System.Drawing.Size(292, 22);
             this.UsuarioTextBox.TabIndex = 1;
             // 
             // label1
@@ -124,44 +124,44 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.BuscarClienteButton);
-            this.groupBox2.Controls.Add(this.NombreClienteTextBox);
+            this.groupBox2.Controls.Add(this.NombrePacienteTextBox);
             this.groupBox2.Controls.Add(this.IdentidadTextBox);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Location = new System.Drawing.Point(16, 114);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Location = new System.Drawing.Point(16, 102);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox2.Size = new System.Drawing.Size(1097, 79);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Size = new System.Drawing.Size(974, 79);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Paciente";
             // 
             // BuscarClienteButton
             // 
-            this.BuscarClienteButton.Location = new System.Drawing.Point(888, 46);
-            this.BuscarClienteButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BuscarClienteButton.Location = new System.Drawing.Point(866, 45);
+            this.BuscarClienteButton.Margin = new System.Windows.Forms.Padding(4);
             this.BuscarClienteButton.Name = "BuscarClienteButton";
             this.BuscarClienteButton.Size = new System.Drawing.Size(40, 26);
             this.BuscarClienteButton.TabIndex = 6;
             this.BuscarClienteButton.Text = "...";
             this.BuscarClienteButton.UseVisualStyleBackColor = true;
             // 
-            // NombreClienteTextBox
+            // NombrePacienteTextBox
             // 
-            this.NombreClienteTextBox.Location = new System.Drawing.Point(461, 47);
-            this.NombreClienteTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.NombreClienteTextBox.Name = "NombreClienteTextBox";
-            this.NombreClienteTextBox.Size = new System.Drawing.Size(417, 22);
-            this.NombreClienteTextBox.TabIndex = 5;
+            this.NombrePacienteTextBox.Location = new System.Drawing.Point(461, 47);
+            this.NombrePacienteTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.NombrePacienteTextBox.Name = "NombrePacienteTextBox";
+            this.NombrePacienteTextBox.Size = new System.Drawing.Size(376, 22);
+            this.NombrePacienteTextBox.TabIndex = 5;
             // 
             // IdentidadTextBox
             // 
             this.IdentidadTextBox.Location = new System.Drawing.Point(31, 47);
-            this.IdentidadTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IdentidadTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.IdentidadTextBox.Mask = "####-####-#####";
             this.IdentidadTextBox.Name = "IdentidadTextBox";
-            this.IdentidadTextBox.Size = new System.Drawing.Size(353, 22);
+            this.IdentidadTextBox.Size = new System.Drawing.Size(292, 22);
             this.IdentidadTextBox.TabIndex = 4;
             // 
             // label3
@@ -188,24 +188,24 @@
             // 
             this.groupBox3.Controls.Add(this.CantidadTextBox);
             this.groupBox3.Controls.Add(this.label7);
-            this.groupBox3.Controls.Add(this.CodigoProductoTextBox);
-            this.groupBox3.Controls.Add(this.BuscarProductoButton);
-            this.groupBox3.Controls.Add(this.DescripcionProductoText);
+            this.groupBox3.Controls.Add(this.CodigoServicioTextBox);
+            this.groupBox3.Controls.Add(this.BuscarServicioButton);
+            this.groupBox3.Controls.Add(this.DescripcionServicioText);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Location = new System.Drawing.Point(16, 215);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Location = new System.Drawing.Point(16, 189);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox3.Size = new System.Drawing.Size(1097, 148);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Size = new System.Drawing.Size(974, 131);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Servicio";
             // 
             // CantidadTextBox
             // 
-            this.CantidadTextBox.Location = new System.Drawing.Point(35, 111);
-            this.CantidadTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CantidadTextBox.Location = new System.Drawing.Point(18, 98);
+            this.CantidadTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.CantidadTextBox.Name = "CantidadTextBox";
             this.CantidadTextBox.Size = new System.Drawing.Size(353, 22);
             this.CantidadTextBox.TabIndex = 9;
@@ -213,38 +213,38 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(31, 89);
+            this.label7.Location = new System.Drawing.Point(25, 78);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(65, 16);
             this.label7.TabIndex = 8;
             this.label7.Text = "Cantidad:";
             // 
-            // CodigoProductoTextBox
+            // CodigoServicioTextBox
             // 
-            this.CodigoProductoTextBox.Location = new System.Drawing.Point(31, 52);
-            this.CodigoProductoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.CodigoProductoTextBox.Name = "CodigoProductoTextBox";
-            this.CodigoProductoTextBox.Size = new System.Drawing.Size(353, 22);
-            this.CodigoProductoTextBox.TabIndex = 7;
+            this.CodigoServicioTextBox.Location = new System.Drawing.Point(31, 52);
+            this.CodigoServicioTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.CodigoServicioTextBox.Name = "CodigoServicioTextBox";
+            this.CodigoServicioTextBox.Size = new System.Drawing.Size(292, 22);
+            this.CodigoServicioTextBox.TabIndex = 7;
             // 
-            // BuscarProductoButton
+            // BuscarServicioButton
             // 
-            this.BuscarProductoButton.Location = new System.Drawing.Point(888, 50);
-            this.BuscarProductoButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.BuscarProductoButton.Name = "BuscarProductoButton";
-            this.BuscarProductoButton.Size = new System.Drawing.Size(40, 26);
-            this.BuscarProductoButton.TabIndex = 6;
-            this.BuscarProductoButton.Text = "...";
-            this.BuscarProductoButton.UseVisualStyleBackColor = true;
+            this.BuscarServicioButton.Location = new System.Drawing.Point(866, 50);
+            this.BuscarServicioButton.Margin = new System.Windows.Forms.Padding(4);
+            this.BuscarServicioButton.Name = "BuscarServicioButton";
+            this.BuscarServicioButton.Size = new System.Drawing.Size(40, 26);
+            this.BuscarServicioButton.TabIndex = 6;
+            this.BuscarServicioButton.Text = "...";
+            this.BuscarServicioButton.UseVisualStyleBackColor = true;
             // 
-            // DescripcionProductoText
+            // DescripcionServicioText
             // 
-            this.DescripcionProductoText.Location = new System.Drawing.Point(461, 50);
-            this.DescripcionProductoText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.DescripcionProductoText.Name = "DescripcionProductoText";
-            this.DescripcionProductoText.Size = new System.Drawing.Size(417, 22);
-            this.DescripcionProductoText.TabIndex = 5;
+            this.DescripcionServicioText.Location = new System.Drawing.Point(461, 50);
+            this.DescripcionServicioText.Margin = new System.Windows.Forms.Padding(4);
+            this.DescripcionServicioText.Name = "DescripcionServicioText";
+            this.DescripcionServicioText.Size = new System.Drawing.Size(376, 22);
+            this.DescripcionServicioText.TabIndex = 5;
             // 
             // label5
             // 
@@ -271,10 +271,10 @@
             this.DetalleDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DetalleDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DetalleDataGridView.Location = new System.Drawing.Point(16, 371);
-            this.DetalleDataGridView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DetalleDataGridView.Location = new System.Drawing.Point(16, 328);
+            this.DetalleDataGridView.Margin = new System.Windows.Forms.Padding(4);
             this.DetalleDataGridView.Name = "DetalleDataGridView";
-            this.DetalleDataGridView.Size = new System.Drawing.Size(1097, 198);
+            this.DetalleDataGridView.Size = new System.Drawing.Size(974, 88);
             this.DetalleDataGridView.TabIndex = 8;
             // 
             // groupBox4
@@ -287,18 +287,18 @@
             this.groupBox4.Controls.Add(this.label9);
             this.groupBox4.Controls.Add(this.SubTotalTextBox);
             this.groupBox4.Controls.Add(this.label8);
-            this.groupBox4.Location = new System.Drawing.Point(16, 572);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Location = new System.Drawing.Point(13, 424);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox4.Size = new System.Drawing.Size(1097, 101);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox4.Size = new System.Drawing.Size(977, 101);
             this.groupBox4.TabIndex = 9;
             this.groupBox4.TabStop = false;
             // 
             // TotalTextBox
             // 
             this.TotalTextBox.Location = new System.Drawing.Point(672, 57);
-            this.TotalTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TotalTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.TotalTextBox.Name = "TotalTextBox";
             this.TotalTextBox.Size = new System.Drawing.Size(193, 22);
             this.TotalTextBox.TabIndex = 7;
@@ -316,7 +316,7 @@
             // ImpuestoTextBox
             // 
             this.ImpuestoTextBox.Location = new System.Drawing.Point(455, 57);
-            this.ImpuestoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ImpuestoTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.ImpuestoTextBox.Name = "ImpuestoTextBox";
             this.ImpuestoTextBox.Size = new System.Drawing.Size(193, 22);
             this.ImpuestoTextBox.TabIndex = 5;
@@ -334,7 +334,7 @@
             // DescuentoTextBox
             // 
             this.DescuentoTextBox.Location = new System.Drawing.Point(240, 57);
-            this.DescuentoTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DescuentoTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.DescuentoTextBox.Name = "DescuentoTextBox";
             this.DescuentoTextBox.Size = new System.Drawing.Size(193, 22);
             this.DescuentoTextBox.TabIndex = 3;
@@ -352,7 +352,7 @@
             // SubTotalTextBox
             // 
             this.SubTotalTextBox.Location = new System.Drawing.Point(31, 57);
-            this.SubTotalTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SubTotalTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.SubTotalTextBox.Name = "SubTotalTextBox";
             this.SubTotalTextBox.Size = new System.Drawing.Size(193, 22);
             this.SubTotalTextBox.TabIndex = 1;
@@ -372,18 +372,18 @@
             this.groupBox5.Controls.Add(this.CancelarButton);
             this.groupBox5.Controls.Add(this.NuevaButton);
             this.groupBox5.Controls.Add(this.GuardarButton);
-            this.groupBox5.Location = new System.Drawing.Point(16, 681);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox5.Location = new System.Drawing.Point(13, 533);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox5.Size = new System.Drawing.Size(1108, 58);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox5.Size = new System.Drawing.Size(977, 58);
             this.groupBox5.TabIndex = 10;
             this.groupBox5.TabStop = false;
             // 
             // CancelarButton
             // 
             this.CancelarButton.Location = new System.Drawing.Point(364, 15);
-            this.CancelarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CancelarButton.Margin = new System.Windows.Forms.Padding(4);
             this.CancelarButton.Name = "CancelarButton";
             this.CancelarButton.Size = new System.Drawing.Size(145, 36);
             this.CancelarButton.TabIndex = 2;
@@ -393,7 +393,7 @@
             // NuevaButton
             // 
             this.NuevaButton.Location = new System.Drawing.Point(31, 15);
-            this.NuevaButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NuevaButton.Margin = new System.Windows.Forms.Padding(4);
             this.NuevaButton.Name = "NuevaButton";
             this.NuevaButton.Size = new System.Drawing.Size(141, 36);
             this.NuevaButton.TabIndex = 1;
@@ -403,7 +403,7 @@
             // GuardarButton
             // 
             this.GuardarButton.Location = new System.Drawing.Point(200, 15);
-            this.GuardarButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.GuardarButton.Margin = new System.Windows.Forms.Padding(4);
             this.GuardarButton.Name = "GuardarButton";
             this.GuardarButton.Size = new System.Drawing.Size(141, 36);
             this.GuardarButton.TabIndex = 0;
@@ -415,7 +415,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1260, 749);
+            this.ClientSize = new System.Drawing.Size(1260, 607);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.DetalleDataGridView);
@@ -423,10 +423,10 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FacturaView";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FacturaView";
+            this.Text = "Factura";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -461,11 +461,11 @@
     public System.Windows.Forms.TextBox UsuarioTextBox;
     public System.Windows.Forms.DateTimePicker dateTimePicker1;
     public System.Windows.Forms.MaskedTextBox IdentidadTextBox;
-    public System.Windows.Forms.TextBox NombreClienteTextBox;
+    public System.Windows.Forms.TextBox NombrePacienteTextBox;
     public System.Windows.Forms.Button BuscarClienteButton;
-    public System.Windows.Forms.TextBox CodigoProductoTextBox;
-    public System.Windows.Forms.Button BuscarProductoButton;
-    public System.Windows.Forms.TextBox DescripcionProductoText;
+    public System.Windows.Forms.TextBox CodigoServicioTextBox;
+    public System.Windows.Forms.Button BuscarServicioButton;
+    public System.Windows.Forms.TextBox DescripcionServicioText;
     public System.Windows.Forms.TextBox CantidadTextBox;
     public System.Windows.Forms.DataGridView DetalleDataGridView;
     public System.Windows.Forms.TextBox TotalTextBox;

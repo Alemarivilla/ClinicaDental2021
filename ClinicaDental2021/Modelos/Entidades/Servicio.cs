@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace ClinicaDental2021.Modelos.Entidades
 {
-    public class Doctor
+    public class Servicio
     {
         public int Id { get; set; }
-        public string Nombre { get; set; }
         public string Codigo { get; set; }
-        public string Telefono { get; set; }
-        public string Especialidad { get; set; }       
-        public byte[] Foto { get; set; }
+        public string Descripcion { get; set; }      
+        public decimal Precio { get; set; }
     }
 }
