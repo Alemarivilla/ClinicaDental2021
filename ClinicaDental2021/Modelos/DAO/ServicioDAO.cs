@@ -10,6 +10,38 @@ namespace ClinicaDental2021.Modelos.DAO
     {
         SqlCommand comando = new SqlCommand();
 
+
+        public bool InsertarNuevoServicio(Servicio servicio)
+        {
+            bool inserto = false;
+            try
+            {
+                StringBuilder sql = new StringBuilder();
+                sql.Append(" INSERT INTO SERVICIO ");
+                sql.Append(" VALUES (@Codigo, @Descripcion, @Valor); ");
+
+                comando.Connection = MiConexion;
+                MiConexion.Open();
+                comando.CommandType = CommandType.Text;
+                comando.CommandText = sql.ToString();
+
+                comando.Parameters.Add("@Codigo", SqlDbType.NVarChar, 50).Value = servicio.Codigo;
+                comando.Parameters.Add("@Descripcion", SqlDbType.NVarChar, 50).Value = servicio.Descripcion;
+                comando.Parameters.Add("@Valor", SqlDbType.Decimal).Value = servicio.Precio;
+               
+                comando.ExecuteNonQuery();
+                inserto = true;
+                MiConexion.Close();
+
+            }
+            catch (Exception)
+            {
+                inserto = false;
+                MiConexion.Close();
+            }
+            return inserto;
+        }
+
         public Servicio GetServicioPorCodigo(string codigo)
 
         {

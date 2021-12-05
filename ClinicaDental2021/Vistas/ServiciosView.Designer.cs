@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.DescripcionTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.NombretextBox = new System.Windows.Forms.TextBox();
+            this.ValorTextBox = new System.Windows.Forms.TextBox();
             this.IdTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -40,19 +40,19 @@
             this.ModificarButton = new System.Windows.Forms.Button();
             this.NuevoButton = new System.Windows.Forms.Button();
             this.ServiciosDataGridView = new System.Windows.Forms.DataGridView();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.CodigoTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.ServiciosDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
-            // textBox1
+            // DescripcionTextBox
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(204, 127);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(392, 22);
-            this.textBox1.TabIndex = 45;
+            this.DescripcionTextBox.Enabled = false;
+            this.DescripcionTextBox.Location = new System.Drawing.Point(204, 127);
+            this.DescripcionTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.DescripcionTextBox.Name = "DescripcionTextBox";
+            this.DescripcionTextBox.Size = new System.Drawing.Size(392, 22);
+            this.DescripcionTextBox.TabIndex = 45;
             // 
             // label5
             // 
@@ -64,14 +64,14 @@
             this.label5.TabIndex = 44;
             this.label5.Text = "Descripcion:";
             // 
-            // NombretextBox
+            // ValorTextBox
             // 
-            this.NombretextBox.Enabled = false;
-            this.NombretextBox.Location = new System.Drawing.Point(204, 166);
-            this.NombretextBox.Margin = new System.Windows.Forms.Padding(4);
-            this.NombretextBox.Name = "NombretextBox";
-            this.NombretextBox.Size = new System.Drawing.Size(392, 22);
-            this.NombretextBox.TabIndex = 43;
+            this.ValorTextBox.Enabled = false;
+            this.ValorTextBox.Location = new System.Drawing.Point(204, 166);
+            this.ValorTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.ValorTextBox.Name = "ValorTextBox";
+            this.ValorTextBox.Size = new System.Drawing.Size(392, 22);
+            this.ValorTextBox.TabIndex = 43;
             // 
             // IdTextBox
             // 
@@ -164,14 +164,14 @@
             this.ServiciosDataGridView.Size = new System.Drawing.Size(889, 127);
             this.ServiciosDataGridView.TabIndex = 51;
             // 
-            // textBox2
+            // CodigoTextBox
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(204, 87);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(392, 22);
-            this.textBox2.TabIndex = 53;
+            this.CodigoTextBox.Enabled = false;
+            this.CodigoTextBox.Location = new System.Drawing.Point(204, 87);
+            this.CodigoTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.CodigoTextBox.Name = "CodigoTextBox";
+            this.CodigoTextBox.Size = new System.Drawing.Size(392, 22);
+            this.CodigoTextBox.TabIndex = 53;
             // 
             // label3
             // 
@@ -189,7 +189,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(917, 404);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.CodigoTextBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.ServiciosDataGridView);
             this.Controls.Add(this.CancelarButton);
@@ -197,9 +197,9 @@
             this.Controls.Add(this.GuardarButton);
             this.Controls.Add(this.ModificarButton);
             this.Controls.Add(this.NuevoButton);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.DescripcionTextBox);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.NombretextBox);
+            this.Controls.Add(this.ValorTextBox);
             this.Controls.Add(this.IdTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -216,9 +216,9 @@
 
         #endregion
 
-        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox DescripcionTextBox;
         public System.Windows.Forms.Label label5;
-        public System.Windows.Forms.TextBox NombretextBox;
+        public System.Windows.Forms.TextBox ValorTextBox;
         public System.Windows.Forms.TextBox IdTextBox;
         public System.Windows.Forms.Label label2;
         public System.Windows.Forms.Label label1;
@@ -228,7 +228,7 @@
         public System.Windows.Forms.Button ModificarButton;
         public System.Windows.Forms.Button NuevoButton;
         public System.Windows.Forms.DataGridView ServiciosDataGridView;
-        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox CodigoTextBox;
         public System.Windows.Forms.Label label3;
     }
 }
